@@ -31,7 +31,7 @@ int main() {
             tipAmmount = price * .25;
         break;
         default:
-            std::cout << "Something went wrong: Please enter a valid tip percentage." << std::endl;
+            errorMessage("Please enter a valid tip percentage");
         return 1; //exit with an error code
     }
     double total {};
