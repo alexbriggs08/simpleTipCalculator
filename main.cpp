@@ -11,7 +11,7 @@ void errorMessage (const std::string &message);
 int main() {
     double price { getUserPriceInput() };
     if (price <= 0) {
-        errorMessage("Price must be greater than zero");
+        errorMessage("Please enter a valid price!");
         return 1;
     }
 
@@ -31,7 +31,7 @@ int main() {
             tipAmmount = price * .25;
         break;
         default:
-            errorMessage("Please enter a valid tip percentage");
+            errorMessage("Please enter a valid tip percentage!");
         return 1; //exit with an error code
     }
     double total {};
