@@ -18,3 +18,4 @@ int getUserTipPercetangeInput() {
     std::cin >> tipPercentage;
     return tipPercentage;
 }
+
