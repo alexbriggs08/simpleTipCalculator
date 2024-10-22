@@ -8,13 +8,13 @@ char getUserConformationInput();
 
 // main function
 int main() {
-    // variables
     double price { getUserPriceInput() };
+    if (price <= 0) {
+        return 1;
+    }
+
     double tipAmmount;
     int tipPercentage { getUserTipPercetangeInput() };
-    double total {}; // sum of the tip and price
-
-
     switch (tipPercentage) {
         case 15:
             tipAmmount = (price * .15);
@@ -30,10 +30,9 @@ int main() {
         break;
         default:
             std::cout << "Something went wrong: Please enter a valid tip percentage." << std::endl;
-             return 1; //exit with an error code
-
+        return 1; //exit with an error code
     }
-
+    double total {};
     total = tipAmmount + price;
     std::cout << "The total including tip is \n" << total << '\n';
     std::cout << "The tip ammount is: \n" << tipAmmount << std::endl;
