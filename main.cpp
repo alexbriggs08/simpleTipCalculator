@@ -30,11 +30,13 @@ int main() {
         break;
         default:
             std::cout << "Something went wrong: Please enter a valid tip percentage." << std::endl;
-        return 1; //exit with an error code
+             return 1; //exit with an error code
 
     }
 
     total = tipAmmount + price;
     std::cout << "The total including tip is \n" << total << '\n';
     std::cout << "The tip ammount is: \n" << tipAmmount << std::endl;
+
+    return 0;
 }
