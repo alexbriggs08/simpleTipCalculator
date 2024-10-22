@@ -1,26 +1,16 @@
 #include <iostream>
 #include <cmath>
 
-// custom functions
-double getUserPrice() {
-    double price {};
-    std::cout << "Please enter a price: \n";
-    std::cin >> price;
-    return price;
-}
-int getUserTipPercentage() {
-    int tipPercentage {};
-    std::cout << "Please enter a tip percentage: 15, 18, 20, 25 \n";
-    std::cin >> tipPercentage;
-    return tipPercentage;
-}
+// calling functions from functions.cpp
+double getUserPriceInput();
+int getUserTipPercetangeInput();
 
 // main function
 int main() {
     // variables
-    double price = getUserPrice();
+    double price { getUserPriceInput() };
     double tipAmmount;
-    int tipPercentage = getUserTipPercentage();
+    int tipPercentage { getUserTipPercetangeInput() };
     double total {}; // sum of the tip and price
 
 

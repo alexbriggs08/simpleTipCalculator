@@ -3,4 +3,5 @@ project(tipCalculator)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(tipCalculator main.cpp)
+add_executable(tipCalculator main.cpp
+        functions.cpp)
