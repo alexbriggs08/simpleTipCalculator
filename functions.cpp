@@ -9,12 +9,9 @@ double getUserPriceInput() {
     std::cout << "Please enter your price: \n";
     double price;
     std::cin >> price;
-    if (price <= 0) {
-        std::cout << "Error: You have entered a price that doesn't work!";
-        return 0;
-    } else {
-        return price;
-    }
+
+    return price;
+
 }
 
 int getUserTipPercetangeInput() {
@@ -22,5 +19,9 @@ int getUserTipPercetangeInput() {
     int tipPercentage {};
     std::cin >> tipPercentage;
     return tipPercentage;
+}
+
+void errorMessage (const std::string &message) {
+    std::cout << "Error: " << message << std::endl;
 }
 

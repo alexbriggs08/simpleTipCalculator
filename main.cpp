@@ -5,11 +5,13 @@
 double getUserPriceInput();
 int getUserTipPercetangeInput();
 char getUserConformationInput();
+void errorMessage (const std::string &message);
 
 // main function
 int main() {
     double price { getUserPriceInput() };
     if (price <= 0) {
+        errorMessage("Price must be greater than zero");
         return 1;
     }
 
