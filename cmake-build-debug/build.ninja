@@ -55,8 +55,26 @@ build CMakeFiles/tipCalculator.dir/main.cpp.o: CXX_COMPILER__tipCalculator_unsca
   OBJECT_DIR = CMakeFiles/tipCalculator.dir
   OBJECT_FILE_DIR = CMakeFiles/tipCalculator.dir
 
-build CMakeFiles/tipCalculator.dir/functions.cpp.o: CXX_COMPILER__tipCalculator_unscanned_Debug /Users/alex/CLionProjects/tipCalculator/functions.cpp || cmake_object_order_depends_target_tipCalculator
-  DEP_FILE = CMakeFiles/tipCalculator.dir/functions.cpp.o.d
+build CMakeFiles/tipCalculator.dir/tc_getUserPriceInput.cpp.o: CXX_COMPILER__tipCalculator_unscanned_Debug /Users/alex/CLionProjects/tipCalculator/tc_getUserPriceInput.cpp || cmake_object_order_depends_target_tipCalculator
+  DEP_FILE = CMakeFiles/tipCalculator.dir/tc_getUserPriceInput.cpp.o.d
+  FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/tipCalculator.dir
+  OBJECT_FILE_DIR = CMakeFiles/tipCalculator.dir
+
+build CMakeFiles/tipCalculator.dir/tc_getUserTipPercentageInput.cpp.o: CXX_COMPILER__tipCalculator_unscanned_Debug /Users/alex/CLionProjects/tipCalculator/tc_getUserTipPercentageInput.cpp || cmake_object_order_depends_target_tipCalculator
+  DEP_FILE = CMakeFiles/tipCalculator.dir/tc_getUserTipPercentageInput.cpp.o.d
+  FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/tipCalculator.dir
+  OBJECT_FILE_DIR = CMakeFiles/tipCalculator.dir
+
+build CMakeFiles/tipCalculator.dir/tc_errorMessage.cpp.o: CXX_COMPILER__tipCalculator_unscanned_Debug /Users/alex/CLionProjects/tipCalculator/tc_errorMessage.cpp || cmake_object_order_depends_target_tipCalculator
+  DEP_FILE = CMakeFiles/tipCalculator.dir/tc_errorMessage.cpp.o.d
+  FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/tipCalculator.dir
+  OBJECT_FILE_DIR = CMakeFiles/tipCalculator.dir
+
+build CMakeFiles/tipCalculator.dir/tc_tipPercentageOutput.cpp.o: CXX_COMPILER__tipCalculator_unscanned_Debug /Users/alex/CLionProjects/tipCalculator/tc_tipPercentageOutput.cpp || cmake_object_order_depends_target_tipCalculator
+  DEP_FILE = CMakeFiles/tipCalculator.dir/tc_tipPercentageOutput.cpp.o.d
   FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/tipCalculator.dir
   OBJECT_FILE_DIR = CMakeFiles/tipCalculator.dir
@@ -69,7 +87,7 @@ build CMakeFiles/tipCalculator.dir/functions.cpp.o: CXX_COMPILER__tipCalculator_
 #############################################
 # Link the executable tipCalculator
 
-build tipCalculator: CXX_EXECUTABLE_LINKER__tipCalculator_Debug CMakeFiles/tipCalculator.dir/main.cpp.o CMakeFiles/tipCalculator.dir/functions.cpp.o
+build tipCalculator: CXX_EXECUTABLE_LINKER__tipCalculator_Debug CMakeFiles/tipCalculator.dir/main.cpp.o CMakeFiles/tipCalculator.dir/tc_getUserPriceInput.cpp.o CMakeFiles/tipCalculator.dir/tc_getUserTipPercentageInput.cpp.o CMakeFiles/tipCalculator.dir/tc_errorMessage.cpp.o CMakeFiles/tipCalculator.dir/tc_tipPercentageOutput.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk
   OBJECT_DIR = CMakeFiles/tipCalculator.dir
   POST_BUILD = :
