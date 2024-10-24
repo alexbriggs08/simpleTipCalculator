@@ -1,12 +1,9 @@
 # ninja log v6
-816	958	1729690234624273247	tipCalculator	cff43da888686152
-7	861	1729689983523991715	CMakeFiles/tipCalculator.dir/functions.cpp.o	dc4d57f11b896920
-13	816	1729690233820680732	CMakeFiles/tipCalculator.dir/main.cpp.o	2e426c9f297fba4c
-2	75	1729690442911064983	build.ninja	e947964aa1d6af43
+21	819	1729690606066757114	CMakeFiles/tipCalculator.dir/main.cpp.o	2e426c9f297fba4c
+2	75	1729722094748127400	build.ninja	e947964aa1d6af43
 6	1047	1729690442927099362	CMakeFiles/tipCalculator.dir/tc_getUserTipPercentageInput.cpp.o	ece8149edbd690b
+7	861	1729689983523991715	CMakeFiles/tipCalculator.dir/functions.cpp.o	dc4d57f11b896920
+820	873	1729690606864956657	tipCalculator	516314b53967a768
+6	1052	1729690442927439436	CMakeFiles/tipCalculator.dir/tc_tipPercentageOutput.cpp.o	a1c0fbd299b0c37
 6	1049	1729690442926833328	CMakeFiles/tipCalculator.dir/tc_getUserPriceInput.cpp.o	22de3bde9250a0c7
 6	1051	1729690442927275649	CMakeFiles/tipCalculator.dir/tc_errorMessage.cpp.o	1336a4151a0ec0c0
-6	1052	1729690442927439436	CMakeFiles/tipCalculator.dir/tc_tipPercentageOutput.cpp.o	a1c0fbd299b0c37
-1052	1115	1729690443973242016	tipCalculator	516314b53967a768
-22	963	1729690502614445028	CMakeFiles/tipCalculator.dir/main.cpp.o	2e426c9f297fba4c
-963	1016	1729690503555437115	tipCalculator	516314b53967a768

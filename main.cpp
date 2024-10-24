@@ -8,7 +8,6 @@ char getUserConformationInput();
 void errorMessage (const std::string     &message);
 double tipPercentageOutput(int, double);
 
-// this shit is pissing me off TODO: make the switch work
 int main() {
     double price { getUserPriceInput() };
     if (price <= 0) {
